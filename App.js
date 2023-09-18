@@ -23,6 +23,7 @@ import domtoimage from 'dom-to-image';
 
 
 
+
 const PlaceHolderImage = require('./assets/images/background-image.png');
 
 
@@ -141,7 +142,8 @@ export default function App() {
         <EmojiList onSelect={setPickedEmoji} onCloseModal={onModalClose} />
       </EmojiPicker>
 
-      <StatusBar style="auto" />
+      <StatusBar style="light" />
+
     </GestureHandlerRootView>
   )
 };
