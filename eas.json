@@ -3,6 +3,19 @@
     "version": ">= 5.2.0"
   },
   "build": {
-    "releaseChannel": "Testing"
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "ios": {
+        "simulator": true
+      }
+    },
+    "production": {}
+  },
+  "submit": {
+    "production": {}
   }
 }
