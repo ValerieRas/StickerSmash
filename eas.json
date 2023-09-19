@@ -1,0 +1,8 @@
+{
+  "cli": {
+    "version": ">= 5.2.0"
+  },
+  "build": {
+    "releaseChannel": "Testing"
+  }
+}
